@@ -20,7 +20,7 @@ Kullanıcı, konsol üzerinden:
 - `data.csv` çok büyük (≈ 836 MB, milyonlarca satır).
 - Pandas ile dosyanın tamamını `read_csv` ile belleğe almak hem yavaş hem de bilgisayarı kilitleyebilir.
 - Her arama için tüm dosyayı taramak akıllıca değildir.
-
+__
 ### Çözüm — Üç Aşamalı Yaklaşım
 
 1. **Partisyonlama (Parçalara Ayırma):**
